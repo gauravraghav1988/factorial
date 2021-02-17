@@ -1,5 +1,5 @@
-n=int(input("Enter the value to get factorial of:\n"))
-factorial=1
-for i in range(1,n+1):
-    factorial= factorial*i
-print("Factorial is",factorial)
+n=int(input("Enter the value to get factorial of:\n"))  #n asks for a number you want a factorial for
+factorial=1   #factorail is initiated from 1
+for i in range(1,n+1):  #defines range from 1 to n+!
+    factorial= factorial*i   # factorial value is being multiplied by i value
+print("Factorial is",factorial) #printing the result
